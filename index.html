@@ -15,17 +15,16 @@
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
-
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
 
-    <script src="./js/jquery-2.1.0.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/blocs.js"></script>
+    <script defer src="./js/jquery-2.1.0.js"></script>
+    <script defer src="./js/bootstrap.js"></script>
+    <script defer src="./js/blocs.js"></script>
     <script src="./js/jquery.touchSwipe.js" defer></script>
-    <script src="./js/gmaps.js"></script>
+    <!-- <script src="./js/gmaps.js"></script> -->
 
     <title>Agence La Panthère, entreprise web design Lyon</title>
 
@@ -42,20 +41,12 @@
           <div class="container bloc-sm">
             <nav class="navbar row">
               <div class="navbar-header">
-                <!-- <div class="keywords" style="color: #cccccc; font-size: 1px">
-                Agence web à paris, stratégie web, web design, illustrations,
-                design de site web, site web, web, internet, site internet, site
-              </div> -->
                 <a class="navbar-brand" href="index.html"
                   ><img
                     src="img/agence-la-panthere-monochrome.svg"
                     alt="paris web design logo agence web meilleure agence"
                     height="40"
                 /></a>
-                <!-- <div class="keywords" style="color: #cccccc; font-size: 1px">
-                Agence web à paris, stratégie web, web design, illustrations,
-                design de site web, site web, web, internet, site internet, site
-              </div> -->
                 <button
                   id="nav-toggle"
                   type="button"
@@ -96,7 +87,7 @@
             <div class="row tight-width-whitespace">
               <div class="col-sm-12">
                 <img
-                  src="img/logo.png"
+                  src="img/logo.webp"
                   class="center-block image-resize-mode"
                   width="100"
                   alt="Agence La Panthère, agence web paris, création logo paris"
@@ -127,10 +118,6 @@
                   L'agence La Panthère est une agence de web design qui aide<br />
                   les entreprises à devenir attractives et visibles sur internet
                 </h2>
-                <!-- <img
-                  alt="agence web, agence web paris, web design paris, stratégie web"
-                  src="img/title.png"
-                /> -->
               </div>
             </div>
             <div class="row voffset-lg med-width-whitespace">
@@ -177,14 +164,15 @@
             </div>
             <div class="row voffset-lg voffset">
               <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-                <img
-                  alt="L'agence La Panthère est une excellente agence web ! Les
-                  web designers ont réussi a capturer I'essence de notre
-                  entreprise et a l'intégrer a notre site. Cela nous a aidé a 
-                  doubler nos ventes en ligne a Lyon.
-                  Maxime Guibard, PDG de A vos fourchettes"
-                  src="img/citation.png"
-                />
+                <p id="citation">
+                  "L'agence La Panthère est une excellente agence web ! Les web
+                  designers ont réussi à capturer I'essence de notre entreprise
+                  et à l'intégrer a notre site. Cela nous a aidé à doubler nos
+                  ventes en ligne à Lyon."<br />
+                  <span id="sig-citation">
+                    Maxime Guibard, PDG de &Agrave; vos fourchettes
+                  </span>
+                </p>
               </div>
             </div>
           </div>
@@ -235,10 +223,6 @@
                   Nous travaillons avec beaucoup de clients,<br />
                   voici nos réalisations.
                 </h2>
-                <!-- <img
-                  alt="agence web, agence web paris, web design paris, stratégie web"
-                  src="img/title2.png"
-                /> -->
               </div>
             </div>
             <div class="row tight-width-whitespace portfolio-row">

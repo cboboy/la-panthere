@@ -56,6 +56,18 @@ a:hover {
   padding: 20px 50px;
 }
 
+#citation {
+  max-width: 570px;
+  margin: auto;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#sig-citation {
+  font-style: normal;
+  font-weight: normal;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -91,7 +103,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
+  background: url("img/texture-paper.webp");
   background-size: 280px 280px;
 }
 
@@ -743,6 +755,7 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
+  width: 100%;
 }
 
 .portfolio-row {
